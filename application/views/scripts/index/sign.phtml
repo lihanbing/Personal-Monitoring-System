@@ -1,0 +1,50 @@
+<div id="welcome">
+    <div id = "page_title">
+    	Personal Monitoring System
+    </div>
+
+    <!-- Genearte left side navigator -->
+    
+    <?php $this->placeholder('left_sidebar')->captureStart() ?>
+		<h4>Navigation</h4>
+		<ul>
+		    <li><a href="/">
+		        Home</a>
+		    <li><a href="/help">
+		        Help</a></li>
+		    
+		</ul>
+	<?php $this->placeholder('left_sidebar')->captureEnd() ?>
+    
+	<?php echo $this->placeholder('left_sidebar'); ?>    
+	
+	<div id = "main">
+		<div class = "right_sidebar">
+			<b>Log in</b>
+			<?php $this->form->setAction($this->url());
+					echo $this->form; 
+					
+			?>  
+		</div> 
+		
+		<div id = "content">
+			<b>We welcome you at the Personal Monitoring System website!!!</b> 
+			<br />
+			<br />
+			To be able to use the website, please login with the help of the login box at the top right corner of the screen.
+			<br />
+			For more information please consalt the help link in the navigation list.
+			<br />
+			<br />
+			
+			Best Regards, MSc Team number 1
+			
+			
+			
+	
+			
+		</div> 
+	
+	</div>
+    
+</div>

@@ -1,0 +1,42 @@
+<div id="welcome">
+    <div id = "page_title">
+    	Personal Monitoring System
+    </div>
+    
+    <!-- Genearte left side navigator -->
+    
+	    <?php $this->placeholder('left_sidebar')->captureStart() ?>
+			<h4>Navigation</h4>
+			<ul>
+			    <li><a href = "/">
+			        Home</a></li>
+			    <li>
+			        Add user</li>
+			    <li><a href="/help">
+			        Help</a></li>
+			    <li><a href="/my-account">
+			        My Account</a></li>
+			    <li><a href="/index/logout">
+			        Logout</a></li>
+			</ul>
+		<?php $this->placeholder('left_sidebar')->captureEnd() ?>
+    
+    
+	<?php echo $this->placeholder('left_sidebar'); ?>    
+	
+	<div id = "main">
+	
+		<div class = "right_sidebar">
+			<!-- currently empty, but could have someinformation fot the right side bar -->
+		</div>
+		
+		<div id = "content">
+		<?php 
+			$this->form->setAction($this->url());
+			echo $this->form;
+		?>
+		</div> 
+	
+	</div>
+    
+</div>

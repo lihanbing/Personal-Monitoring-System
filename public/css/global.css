@@ -1,0 +1,77 @@
+div#page_title
+{
+	font-size: 30pt;
+	text-align:center;
+	background-color:#12ded4;
+}
+
+div.left_sidebar
+{
+	float:left;
+	width:240px;
+	height:400px;
+}
+
+#main
+{
+	position:relative;
+	margin-left:100px;
+}
+
+div.right_sidebar
+{
+	
+	float:right;
+	width:200px;
+	
+}
+
+#content
+{
+	padding:5px;
+	margin-right:100px;
+	margin-top:30px;
+	text-align:left;
+}
+
+.small_title
+{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hello_text
+{
+	font-weight:bold;
+	background-color:red;
+	float:right;
+}
+
+#picture
+{
+	width:100px;
+
+}
+#my_photo
+{
+	background-color:red;
+
+}
